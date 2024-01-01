@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Kanit:wght@700&family=Roboto:wght@500&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="style.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Rock-Scissor-Paper</title>
+    </head>
+    <body>
+        <div class="top">
+            <span>ROCK SCISSOR PAPER</span>
+        </div>
+
+        <h1>FIRST PLAYER TO 5 WIN THE GAME</h1>
+        <section>
+            <button class="thing" id="Paper">
+                <img src="./ressources/paper.png" alt="paper image" />
+            </button>
+            <button id="Scissor" class="thing">
+                <img src="./ressources/scissor.png" alt="scissor image" />
+            </button>
+            <button id="Rock" class="thing">
+                <img src="./ressources/rock.png" alt="rock image" />
+            </button>
+        </section>
+
+        <div class="result">
+            <p class="total">Player : <span id="Player">0</span></p>
+            <p class="total">Computer : <span id="Computer">0</span></p>
+        </div>
+
+        <script src="index.js"></script>
+    </body>
+</html>

@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* font-family: "Bungee Spice", sans-serif; */
+
+body {
+    background-color: #1f2937;
+}
+
+.top {
+    /* border: 2px solid red; */
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.top span {
+    color: white;
+    font-size: 50px;
+    font-family: "Bungee Spice";
+}
+
+section {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* border: 2px solid red; */
+}
+
+.thing {
+    border-radius: 50%;
+    box-shadow: -10px 10px 10px black;
+    transition: transform 0.5s;
+}
+
+img {
+    border-radius: 50%;
+}
+
+.thing:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.result {
+    margin: 100px 150px;
+    padding: 0px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+}
+
+.total {
+    font-family: Roboto;
+    font-size: 40px;
+    font-style: italic;
+    color: white;
+}
+
+h1 {
+    color: white;
+    font-family: "Bungee Spice", sans-serif;
+    text-align: center;
+    margin-top: 40px;
+}
